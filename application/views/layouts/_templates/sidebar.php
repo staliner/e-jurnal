@@ -41,10 +41,18 @@
                       </a>
                   </li>
                   <li class="nav-item">
-                      <a href="pages/widgets.html" class="nav-link">
+                      <a href="<?= base_url('Admin/Crud/Tbl_Absen'); ?>" class="nav-link">
                           <i class="nav-icon fas fa-calendar-alt"></i>
                           <p>
-                              Kalender
+                              Absen
+                          </p>
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="<?= base_url('Admin/Crud/Tbl_Access_Menu') ?>" class="nav-link">
+                          <i class="nav-icon fas fa-calendar-alt"></i>
+                          <p>
+                              Access Menu
                           </p>
                       </a>
                   </li>
